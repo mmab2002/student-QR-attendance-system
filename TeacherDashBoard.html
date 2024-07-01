@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/1.3%20grid.css.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="http://ajax.googlepis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+    <title>teacher dashboard</title>
+    <style>
+        body{
+            background-color: #c4c4c4;
+        }
+        nav{
+            background-color: #57bc57;
+        }
+        .logo{
+             
+             margin-left: 200px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                height: 125px;
+                width: 125px;
+                border-radius: 50%;
+        }
+
+       /*  body{
+                background-color: #f0f0f0;
+               background-image: linear-gradient(rgba(65, 206, 65, 2.5),rgba(201, 201, 201, 0.7));
+              background-size: cover;
+              background-position: center;
+              height: 100vh;
+            }
+        */
+
+        .img{
+             margin-left: 200px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                height: 110px;
+                width: 125px;
+                border-radius: 50%;
+            }
+            ul{
+                float: right;
+             margin-right: 200px;
+            text-decoration: none;
+                margin-top: 50px;
+                list-style: none;
+            }
+            ul li{
+                display: inline-block;
+               margin-left:40px;
+                 
+            }
+            ul li a:link, ul li a:visited{
+                color:#fff;
+                text-decoration: none; 
+                text-transform: uppercase;
+                font-size:17px;
+                border-bottom: 2px solid transparent;
+                transition:border-bottom 0.2s;
+                padding-bottom: 8px;
+            }
+            ul li a:hover,ul li a:active{
+                 border-bottom:2px solid #f4f40b;
+            }
+    </style>
+</head>
+<body>
+    <nav><img src="resources/css/img/stamp.jpg" class="img" alt="logo">
+        <ul><li><a href="csehome.html">HOME</a></li></ul><ul><li><a href="teacherform.php">log out</a></li></ul></nav>
+        <center><h2> Teacher DashBoard </h2>
+        
+       <div class="container">
+         <div class="row">
+            <div class="col-xl-6">
+            <div class="thumbnail">
+               <a href="TeahStudent.php"><img src="img/student.png" alt="add student icon" width="250px" height="250px">
+                <div class="caption">
+                <h3>Student List</h3>
+                    <p>List of student by their required data.</p>
+                   </div></a>
+                </div>
+            </div>
+            </div>
+            
+            <div class="col-xl-6">
+                <div class="thumbnail">
+                    <a href="markattendance.php">
+                        <img src="img/addteacher.jpg" alt="add teacher icon" width="300px" height="300px">
+                <div class="caption">
+                    <h3>MARK ATTENDANCE</h3>
+                    <p>add the teacher by their required details in form.</p>
+                </div>
+                    </a>
+               </div>
+            </div>
+           
+            
+             <div class="col-xl-6">
+                <div class="thumbnail ">
+                    <a href="csehome.html">
+                        <img src="img/logout.png" alt="logout icon" width="250px" height="250px">
+                <div class="caption">
+                    <h3>logout</h3>
+                    <p>add the subject by their required details in form.</p>
+                </div>
+                    </a>
+                </div>
+            </div>
+            
+          <!--  <div class="col-xl-6">
+                <div class="thumbnail ">
+                    <a href="add_removeclass.php">
+                        <img src="img/teacher.png" alt="add subject icon" width="250px" height="250px">
+                <div class="caption">
+                    <h3>Add Class name</h3>
+                    <p>add the subject by their required details in form.</p>
+                </div>
+                    </a>
+                </div>
+            </div>-->
+            
+           
+            </div>
+           
+           </center>
+        
+</body>
+</html>
